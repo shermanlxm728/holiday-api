@@ -73,7 +73,8 @@ To Login to the database, go to link: http://localhost:8080/h2-console with JDBC
 
 8) Test are included under the test folder:
 
-![image](https://github.com/shermanlxm728/holiday-api/assets/86971702/6ed37244-7850-4f5e-999b-eb23c301d1f5)
+![image](https://github.com/shermanlxm728/holiday-api/assets/86971702/d7708081-3296-42f0-be83-4d7a945c5629)
+
 
 
 
