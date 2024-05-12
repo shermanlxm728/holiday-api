@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "847f4351-282e-4c8f-9dd3-5cb0202f550b",
+		"_postman_id": "c22be35d-b113-4711-8df2-04a06e923919",
 		"name": "Holiday API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6189337",
-		"_collection_link": "https://universal-equinox-903275.postman.co/workspace/Scotiabank~1c33fa55-ef71-4a21-9b42-b7af5df063c7/collection/6189337-847f4351-282e-4c8f-9dd3-5cb0202f550b?action=share&source=collection_link&creator=6189337"
+		"_collection_link": "https://universal-equinox-903275.postman.co/workspace/Scotiabank~1c33fa55-ef71-4a21-9b42-b7af5df063c7/collection/6189337-c22be35d-b113-4711-8df2-04a06e923919?action=share&source=collection_link&creator=6189337"
 	},
 	"item": [
 		{
-			"name": "holidays",
+			"name": "List holidays",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -26,7 +26,7 @@
 			"response": []
 		},
 		{
-			"name": "holiday",
+			"name": "Add holiday",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -53,7 +53,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Update holiday",
 			"request": {
 				"method": "PUT",
 				"header": [],

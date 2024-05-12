@@ -8,10 +8,10 @@
 		<version>2.1.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bestbuy</groupId>
-	<artifactId>petstore</artifactId>
+	<groupId>com.holiday</groupId>
+	<artifactId>holiday-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>petstore</name>
+	<name>holiday-api</name>
 	<description>Holiday API project for Spring Boot</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
