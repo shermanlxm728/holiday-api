@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "847f4351-282e-4c8f-9dd3-5cb0202f550b",
+		"name": "Holiday API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6189337",
+		"_collection_link": "https://universal-equinox-903275.postman.co/workspace/Scotiabank~1c33fa55-ef71-4a21-9b42-b7af5df063c7/collection/6189337-847f4351-282e-4c8f-9dd3-5cb0202f550b?action=share&source=collection_link&creator=6189337"
+	},
+	"item": [
+		{
+			"name": "holidays",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/holidays",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"holidays"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "holiday",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Labor Day\",\r\n        \"date\": \"2023-09-04\",\r\n        \"countryName\": \"Canada\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/holiday",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"holiday"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"name\": \"New Year Holiday\",\r\n    \"date\": \"2023-01-01\",\r\n    \"countryName\": \"United States\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/holiday/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"holiday",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
